@@ -1,0 +1,43 @@
+
+
+.sidebar {
+    background-color: #282c34;
+    width: 12%;
+    height: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    position: fixed;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.titulo{
+    padding: 2px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color:#fff
+}
+
+.lista-general{
+    padding: 20px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+.lista-lateral{
+    width: 100%;
+}
+.lista-lateral:hover{
+    background-color: #353a44;
+    border-radius: 5%;
+
+}

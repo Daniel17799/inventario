@@ -1,0 +1,48 @@
+/* Archivo: EditCategorias.css */
+
+.contenedor-edit_categorias {
+    position: fixed; /* Fijar el contenedor a la derecha */
+    top: 10px; /* Espacio desde la parte superior */
+    right: 0; /* Espacio desde el lado derecho */
+    width: 200px; /* Ancho fijo para el contenedor */
+    max-height: 90vh; /* Altura máxima del contenedor */
+    overflow-y: auto; /* Habilitar desplazamiento vertical */
+    padding: 10px; /* Espaciado interno */
+    background-color: #ffffff; /* Color de fondo blanco */
+    border: 1px solid #ddd; /* Bordes sutiles */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    z-index: 1000; /* Asegúrate de que esté sobre otros elementos */
+}
+
+.contenedor-edit_categorias h2 {
+    font-size: 18px; /* Tamaño de fuente para los encabezados */
+    margin-bottom: 10px; /* Margen inferior */
+    color: #333; /* Color del texto */
+}
+
+.contenedor-edit_categorias form {
+    margin-bottom: 20px; /* Espacio entre formularios */
+}
+
+.contenedor-edit_categorias input {
+    width: calc(100% - 10px); /* Ancho completo menos el padding */
+    padding: 8px; /* Espaciado interno del input */
+    margin-bottom: 10px; /* Espacio entre inputs */
+    border: 1px solid #ddd; /* Bordes del input */
+    border-radius: 4px; /* Bordes redondeados */
+}
+
+.contenedor-edit_categorias button {
+    width: 100%; /* Botón ocupa el ancho completo */
+    padding: 10px; /* Espaciado interno del botón */
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+.contenedor-edit_categorias button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el mouse */
+}

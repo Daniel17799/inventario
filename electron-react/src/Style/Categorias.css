@@ -1,0 +1,48 @@
+/* Archivo: Categorias.css */
+
+.contenedor-categorias {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-categorias table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.contenedor-categorias th, 
+.contenedor-categorias td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.contenedor-categorias th {
+    background-color: #484646;
+    color: white;
+    font-weight: bold;
+}
+
+.contenedor-categorias tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contenedor-categorias tbody tr:hover {
+    background-color: #ddd;
+}
+
+.contenedor-categorias td {
+    color: #333;
+}
+
+.contenedor-categorias th,
+.contenedor-categorias td {
+    text-align: center;
+}
